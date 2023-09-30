@@ -10,3 +10,4 @@ sphinx
 virtualenv
 voluptuous
 yamllint
+pydantic>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
