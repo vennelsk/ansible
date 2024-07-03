@@ -21,3 +21,8 @@ openshift >= 0.6.2 # merge_type support
 virtualenv < 16.0.0 ; python_version < '2.7' # virtualenv 16.0.0 and later require python 2.7 or later
 pyopenssl < 18.0.0 ; python_version < '2.7' # pyOpenSSL 18.0.0 and later require python 2.7 or later
 pyfmg == 0.6.1 # newer versions do not pass current unit tests
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
