@@ -6,3 +6,4 @@ pyyaml
 pexpect # for _user test
 ncclient # for Junos
 jxmlease # for Junos
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
