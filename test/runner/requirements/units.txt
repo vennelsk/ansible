@@ -36,3 +36,4 @@ pexpect
 # requirement for the linode module
 linode-python # APIv3
 linode_api4 ; python_version > '2.6' # APIv4
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
